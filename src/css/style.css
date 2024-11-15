@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -59,7 +60,7 @@ body {
 }
 
 .painel h2 {
-    color: #fff;
+    color: antiquewhite;
     font-size: 3em;
     font-weight: 400;
     text-align: center;
@@ -136,7 +137,7 @@ body {
 /* ----- Contato ----- */
 .contato {
     background: url(../images/fundo-contato.jpg) center center no-repeat;
-    color: aliceblue;
+    color: antiquewhite;
     height: 600px;
     position: relative;
 }
@@ -156,10 +157,73 @@ body {
     position: absolute;
     top: 30%;
     left: 50%;
-
 }
 
 /* ----- Contato ----- */
+/* ----- Reserva ----- */
+.reserva {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.reserva h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.reserva form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+    font-family: sans-serif;
+    border: 1px #D3AE71 dashed;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.reserva form input, .reserva form textarea{
+    padding: .8rem;
+    outline: auto;
+    outline-width: 1px;
+    outline-style: solid;
+    text-align: left;
+    border-radius: .5rem;
+}
+
+.reserva form input:focus, .reserva form textarea:focus {
+    outline-color: #D3AE71;
+    transition: .3s ease-in-out;
+}
+
+.reserva form textarea {
+    width: 100%;
+    resize: none;
+    height: 110px;
+}
+
+.reserva form div{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+.reserva form div button {
+    background-color: #D3AE71;
+    color: antiquewhite;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+}
+
+.reserva form div button:hover {
+    cursor: pointer;
+    outline: auto;
+    transition: .3s ease-in-out;
+    transform: scale(.99);
+}
+/* ----- Reserva ----- */
 /* ----- Rodapé ----- */
 .rodape {
     background: url(../images/fundo-rodape.jpg) center center no-repeat;
@@ -184,7 +248,7 @@ body {
 }
 
 .rodape ul li a{
-    color: aliceblue;    
+    color: antiquewhite;    
 }
 
 .rodape ul li:hover {
@@ -195,7 +259,7 @@ body {
 }
 
 .rodape .copyright {
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 .rodape .redes-sociais .facebook, .rodape .redes-sociais .instagram {
