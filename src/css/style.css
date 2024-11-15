@@ -1,0 +1,220 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1440px;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+/* -----Cabeçalho----- */
+.cabecalho {
+    padding: 30px 15px;
+    position: relative;
+}
+
+.cabecalho .logo {
+    background: url(../images/logo.jpg) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+
+.cabecalho .logo h1 {
+    font-size: 0;
+}
+
+.cabecalho nav {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+.cabecalho ul li:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(.9);
+    text-decoration: wavy;
+    background-color: #D3AE71;
+    border-radius: 1rem;
+}
+
+/* -----Cabeçalho----- */
+/* -----Painel-----  */
+
+.painel {
+    background: url(../images/painel.jpg) center center no-repeat;
+    height: 600px;
+}
+
+.painel h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+/* -----Painel-----  */
+/* -----Seção com texto----- */
+
+.secao-com-texto {
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto  h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p {
+    font-size: 28px;
+    width: 480px;
+}
+
+/* -----Seção com texto----- */
+
+/* ----- Ladrilho ----- */
+
+.ladrilho div {
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno.grao{
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno{
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+/* ----- Ladrilho ----- */
+
+/* ----- Contato ----- */
+.contato {
+    background: url(../images/fundo-contato.jpg) center center no-repeat;
+    color: aliceblue;
+    height: 600px;
+    position: relative;
+}
+
+.contato h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contato .texto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+/* ----- Contato ----- */
+/* ----- Rodapé ----- */
+.rodape {
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 35px 30px;
+    clear: both;
+}
+
+.rodape .logo img{
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+.rodape nav {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a{
+    color: aliceblue;    
+}
+
+.rodape ul li:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(.9);
+    background-color: #D3AE71;
+    border-radius: 1rem;
+}
+
+.rodape .copyright {
+    color: aliceblue;
+}
+
+.rodape .redes-sociais .facebook, .rodape .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.rodape .redes-sociais .facebook:hover, .rodape .redes-sociais .instagram:hover {
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.rodape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo{
+    margin-top: 40px;
+}
+/* ----- Rodapé ----- */
