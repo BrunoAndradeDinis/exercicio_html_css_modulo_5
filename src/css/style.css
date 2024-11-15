@@ -222,6 +222,7 @@ body {
     outline: auto;
     transition: .3s ease-in-out;
     transform: scale(.99);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* ----- Reserva ----- */
 /* ----- Rodapé ----- */
